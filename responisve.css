@@ -1,0 +1,54 @@
+@media screen and (min-width:320px) and (max-width:568px){
+
+    .navbar{
+        /* background-color: aqua;   */
+    
+    }
+    .navbar>p{
+        width:70%;
+    }
+    .navbar>ul{
+        display: none;
+    }
+    .main1{
+        height: 350px;
+    }
+    .main1>h1{
+        width: 90%;
+    }
+    .main3a{
+        height:200px ;
+    }
+    .main4 h2{
+        color: rgb(206, 19, 19);
+        margin-top: 4800px;
+    }
+    .para1{
+        margin-top: 2600px;
+        width: 80%;
+        line-height: 20px;
+        
+    }
+    .main5{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1700px;    
+    }
+    .main5a{
+        margin-left: 20px;
+        margin-top: px;
+        height: 300px;
+    }
+    .main6{
+        margin-top: 550px;
+    }
+    .main6>.pre2>h3{
+        font-size: 12px;
+    }
+    .main8{
+        height: 330px;
+    }
+    .footer>p{
+        font-size: 15px;
+    }
+}

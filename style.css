@@ -1,0 +1,285 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.prenav{
+    height: 70px;
+    width: 100%;
+    /* border: 1px solid rgb(236, 2, 2); */
+    display: flex;
+    justify-content: center;
+    /* border-color: white; */
+    background-color: white ;
+    /* z-index: 2;
+    position: fixed;  */
+}
+.navbar{
+    height:65px ;
+    width: 95%;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+p{
+    height: 50%;
+    width: 170px;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 5px;
+    justify-content: space-evenly;
+}
+p:hover{
+    background-color: rgba(0, 0, 0, 0.295);
+    cursor: pointer;
+}
+.span1{
+    font-weight: bolder;
+}
+.ul1{
+    height:50% ;
+    list-style: none;
+    width: 300px;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ul1>li{
+    padding: 8px 16px;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+.ul1>li:hover{
+    background-color: rgba(0, 0, 0, 0.349);
+    cursor: pointer;
+}
+.main1{
+    height:610px ;
+    width: 100%;
+    /* border: 1px solid #000; */
+    background-image: url(./architect.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+h1{
+    height: 45px;
+    width: 20%;
+    color: white;
+    /* border: 1px solid #000;  */
+    display: flex;   
+    letter-spacing: 3px;
+    align-items: center;
+}
+.span2{
+    background-color: rgba(0, 0, 0, 0.493);
+    padding: 5px 9px;
+    width: 19%;
+}
+.main2{
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid #000; */
+     display: flex;
+     justify-content: center;
+    /* align-items: center;  */
+}
+.pre2{
+    height:90px ;
+    width: 96%;
+    /* border: 1px solid #000; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;    
+}
+.pre2>h2{
+    height: 30px;
+    width: 10%;
+    /* border: 1px solid #000; */
+    color: #000;
+}
+hr{
+    width: 100%;
+}
+.main3{
+    height:500px ;
+    width: 100%;
+    /* border: 1px solid #000;   */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;  
+}
+.main3a{
+    height:200px ;
+    width: 295px;
+    /* border: 1px solid #000;   */
+    background-image: url("./house5.jpg");
+    background-size: 100% 100%;
+}
+.main3a1{
+    background-image: url(./house2.jpg);
+    background-size: 100% 100%;
+}
+.main3a2{
+    background-image: url(./house3.jpg);
+    background-size: 100% 100%;
+}
+.main3a3{
+    background-image: url(./house4.jpg);
+    background-size: 100% 100%;
+}
+.main3a4{
+    background-image: url(./house2.jpg);
+    background-size: 100% 100%;
+}
+.main3a5{
+    background-image: url(./house5.jpg);
+    background-size: 100% 100%;
+}
+.main3a6{
+    background-image: url(./house4.jpg);
+    background-size: 100% 100%;
+}
+.main3a7{
+    background-image: url(./house3.jpg);
+    background-size: 100% 100%;
+}
+.main3a>img{
+    height:200px ;
+    width: 100%;
+}
+.main3a>button{
+    height:35px ;
+    width: 120px;
+    /* border: 1px solid #000; */
+    background-color: #000;
+    color: white;
+}
+.main4{
+    height:190px ;
+    width: 100%;
+    /* border: 1px solid #000; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.para1{
+    width: 96%;  
+}
+.main5{
+    height:430px ;
+    width: 100%;
+    /* border: 1px solid #000; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 35px;  
+}
+.main5a{
+    height:195px ;
+    width:285px ;
+    /* border: 1px solid #000;  */
+}
+.main5a>img{
+    height:195px ;
+    width:100%;
+}
+.main5a>h2{
+    color: #000;
+    width: 100%;
+}
+.main5a>h3{
+    color: rgba(0, 0, 0, 0.349);
+    padding-top: 15px;
+}
+.main5a>p{
+    width: 100%;
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.418);
+}
+.main5a>button{
+    height:35px ;
+    width: 260px;
+    /* border: 1px solid #000;  */
+    cursor: pointer;
+}
+.main5a>button:hover{
+    background-color: rgba(0, 0, 0, 0.397);
+}
+.main6{
+    height:130px ;
+    width: 100%;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+.main7{
+    height:300px ;
+    width: 100%;
+    /* border: 1px solid #000; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding-left: -50px; */
+}
+.main7>input{
+    height:50px ;
+    width: 96%;
+    border: 1px solid #000;
+    padding-left: 6px;
+}
+.send{
+    height:40px ;
+    width: 160px;
+    /* border: 1px solid #000; */
+    background-color:rgba(0, 0, 0, 0.993) ;
+    color: white;
+    cursor: pointer;
+}
+.send:hover{
+    background-color: rgba(0, 0, 0, 0.432);
+}
+.tezt{
+    height:50px ;
+    width: 96%;
+    /* border: 1px solid #000; */
+    padding-left: 6px;  
+}
+.main8{
+    height:600px ;
+    width:100% ;
+    /* border: 1px solid #000; */
+    background-image: url(./map.jpg);
+    background-size: 100% 100%;
+}
+.footer{
+    height: 90px;
+    width: 100%;
+    border: 1px solid #000;
+    background-color: rgb(0, 0, 0);
+    display: flex; 
+    justify-content: center;
+   align-items: center;
+}
+.footer>p{
+    color: white;
+    width: 20%; 
+}
+.footer>p>span{
+    border-bottom: 1px solid gray;
+}
+.footer>p>span:hover{
+    color: green;
+}
